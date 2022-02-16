@@ -1,0 +1,284 @@
+* {
+  font-family: "lato";
+}
+
+:root {
+  --darkgreen: #648381;
+  --light-green: #e5ebea;
+  --pink: #ddb8a6;
+}
+
+/* Julia Gray's Portfolio styling */
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  padding: 30px;
+}
+
+/* About me, project names header styling */
+h2,
+h4 {
+  font-weight: bold;
+  color: var(--darkgreen);
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+/* "Portfolio" heading styling */
+h3 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 2%;
+}
+
+/* Project names heading formatting  */
+h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* "Contact me" heading formatting */
+h5 {
+  text-align: center;
+  font-size: 30px;
+  padding: 2%;
+}
+
+/* NavBar background color */
+nav {
+  background-color: black;
+}
+
+/* Nav list formatting  */
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+
+/* Add padding around the nav boxes */
+nav ul li {
+  padding: 10px;
+}
+
+/* Nav links formatting */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Button styling - nav links  */
+.nav-button {
+  border-color: white;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+/* When hover on the button, pops up */
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Header box styling */
+header {
+  background-color: var(--pink);
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+/* Green about-me box */
+.about-me {
+  position: relative;
+  align-items: center;
+  color: white;
+  background-color: var(--darkgreen);
+  margin: auto;
+  display: flex;
+  width: 80%;
+}
+
+/* Picture of me sizing */
+.jg-pastry {
+  position: relative;
+  left: 5%;
+  margin: 10%;
+  height: 20%;
+  width: 20%;
+}
+
+/* About me text box styling */
+.about-me-text {
+  position: relative;
+  background-color: var(--light-green);
+  color: black;
+  right: 5%;
+  width: 50%;
+  height: 30%;
+  padding: 3%;
+}
+
+/* Centre bio text */
+.bio {
+  text-align: center;
+}
+
+/* "Portfolio" box styling */
+.portfolio {
+  width: 80%;
+  margin: auto;
+  background-color: var(--light-green);
+}
+
+/* Project cards: three equal columns that floats next to each other */
+.column {
+  margin-top: -6%;
+  float: left;
+  width: 33.3%;
+}
+
+/* Project cards: Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Project cards: shadowing on cards  */
+card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+/* When hover on the cards, shadowing appears  */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Project images: centre images  */
+.project-img {
+    margin-left: 30%;
+  padding-bottom: 10%;
+  width: 40%;
+  height: 150px;
+  object-fit: fill;
+}
+
+/* Making the first project image bigger than the others */
+#first-project {
+  width: 90%;
+  height: 150%;
+  object-fit: fill;
+  margin-top: -5%;
+  margin-left: 5%;
+  margin-bottom:10%;
+}
+
+/* Text under horiseon styling */
+.project-txt {
+  text-align: center;
+  margin-top: -10%;
+  }
+
+/* Contact me box styling */
+.contact-me {
+  width: 80%;
+  margin: auto;
+  background-color: var(--pink);
+  color: white;
+  text-align: center;
+}
+
+/* Email styling  */
+.email-me {
+  padding: 2%;
+  margin-top: -7%;
+}
+
+/* Twitter and Linked-in icon styling */
+.fa {
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: -10%;
+  margin-bottom: 2%;
+}
+
+/* Twitter icon background styling */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Linked-in icon styling */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Footer styling "back to the top" */
+footer {
+  margin-top: 10px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Link color as white */
+footer,
+.contact-me a:link {
+  text-decoration: none;
+  color: white;
+}
+
+/* when the link is visited stays as white */
+footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* When the screen is less than 900, nav links go into a column  */
+@media only screen and (max-width: 900px) {
+  nav ul {
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* When the screen is less than 900px, the picture disappears */
+@media screen and (max-width: 900px) {
+  .jg-pastry {
+    display: none;
+  }
+}
+
+/* When the screen is smaller than 900px, the about-me text box shifts */
+@media screen and (max-width: 900px) {
+  .about-me-text {
+    width: 80%;
+    left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+/* When the screen is less than 765px, the "Julia Gray's Portfolio" disappears */
+@media screen and (max-width: 765px) {
+  h1 {
+    display: none;
+  }
+}
+
+/* When the screen is less that 1000px the cards go into columns */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
