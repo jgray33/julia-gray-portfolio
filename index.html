@@ -8,100 +8,34 @@
   <link rel="stylesheet" href="assets\style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <!-- Navigation bar -->
-  <nav id="nav">
-    <ul>
-      <li> <button class="nav-button">
-          <a href="#about-me"> About me</a> </button>
-      </li>
-      <li> <button class="nav-button">
-          <a href="#portfolio"> Portfolio</a> </button>
-      </li>
-      <li> <button class="nav-button">
-          <a href="#contact-me"> Contact me </a> </button>
-      </li>
-    </ul>
-  </nav>
-
-  <main>
-    <header>
-      <h1> Julia Gray's Portfolio</h1>
-    </header>
-
-    <!-- About me section -->
-    <article class="about-me" id="about-me">
-      <img class="jg-pastry" src=" assets\images\Julia pastry.jpg" alt="Julia eating a cinnamon swirl">
-      <div class="about-me-text">
-        <h2>About me</h2>
-        <p class="bio"> My name is Julia and I am a communications professional
-          currently working in public affairs and stakeholder management,
-          aspiring to become a competent web developer.
-          <br> </br>
-        <p class="bio"> I am a very active person and love being outdoors;
-          I play rugby; run regularly and am a keen cyclist.
-          This year, I cycled from Land's End to John O'Groats carrying everything I needed on my bike.
-          It took 16 days covering over 1,000 miles. </p>
-        </p>
-      </div>
-    </article>
-
-    <!-- Portfolio section -->
-    <article class="portfolio" id="portfolio">
-      <h3> Portfolio </h3>
-      <!--First card  -->
-      <div class="row">
-        <div class="column" id="horiseon">
-          <div class="card">
-            <h4 id="Hori-heading"> Horiseon </h4>
-            <div class="img-sizing">
-              <a href="https://jgray33.github.io/project-work/">
-                <img id="first-project" src="assets\images\Horiseon Home page.png"
-                  alt="screenshot of Horiseon marketing page"> </a>
-              <p class="project-txt"> Refactored Horiseon's webpage to <br> ensure it was <br> accessibility compliant
-              </p>
-            </div>
+  <nav class="container-fluid"> 
+  <div class="row">
+    <div class="col-lg-4">
+      <button class="nav-button"> About me </button>
           </div>
-        </div>
+    <div class="col-lg-4">
+      <button class="nav-button"> Portfolio </button>
+    </div>
+    <div class="col-lg-4">
+     <button class="nav-button"> Contact </button>
+    </div>
+  </div>
+</div>
+</nav>
 
-        <!-- Second card -->
-        <div class="column">
-          <div class="card">
-            <h4>Coming soon</h4>
-            <div class="img-sizing">
-              <img class="project-img" src="assets\images\coming-soon small.png" alt="coming soon holding image"> </a>
-            </div>
-          </div>
-        </div>
-        <!-- Third card  -->
-        <div class="column">
-          <div class="card">
-            <h4> Coming soon </h4>
-            <div class="img-sizing">
-              <img class="project-img" src="assets\images\coming-soon small.png" alt="coming soon holding image"> </a>
-            </div>
-          </div>
-        </div>
-    </article>
+<main> 
+  <header>
+    <h1> Julia Gray's Portfolio</h1>
+  </header>
+</main>
 
-    <!-- Contact me section -->
-    <article class="contact-me">
-      <h5> Contact me </h5>
-      <p class="email-me" id="contact-me"> <a href="mailto:julia.gray30@gmail.com">julia.gray30@gmail.com</a></p>
-      <div class="social media">
-        <a href="https://twitter.com/ThatJuliaGray" alt="twitter logo" class="fa fa-twitter"></a> <a
-          href="https://www.linkedin.com/in/julia-g-5a13b168/" alt="linkedin logo" class="fa fa-linkedin"></a>
-      </div>
-    </article>
-  </main>
 
-  <!-- Footer -->
-  <footer>
-    <a href="#nav"> Back to the top </a>
-  </footer>
 
 </body>
 
