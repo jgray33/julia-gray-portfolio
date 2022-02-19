@@ -8,14 +8,17 @@
   --darkgreen: #648381;
   --light-green: #e5ebea;
   --pink: #ddb8a6;
+  /* font-size: calc(16px + 2vw); */
 }
+
+
 
 /* Navigation bar styling  */
 nav{
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2vmax;
 }
 
 
@@ -54,13 +57,36 @@ h1 {
 .img-container{
   width: 200px;
   height: 250px;
-}
+  margin-top: 10%;
+  }
 
 .img-container img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.links-container, .cv-container{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 5%;
+}
+
+.about-me{
+  background-color: #e5ebea;
+  text-align: center;
+  font-size: 2vmax;
+}
+
+.c-container{
+  margin: auto;
+  width: 70%;
+  height: 70%;
+  padding: 30px;
 }
 
 .row{ 
@@ -70,3 +96,9 @@ h1 {
 .about-me-text{
   text-align: center;
 }
+
+/* @media (min-width: 600px) {
+  :root {
+    font-size: 3vw;
+  }
+} */
