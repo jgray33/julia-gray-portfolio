@@ -1,38 +1,36 @@
 
 # Portfolio 
 
-> Created a portfolio that can showcase my talents to prospective employers 
+> Here is my portfolio to showcase my work
 
 ## Access the finished project
 
-Click [here](https://jgray33.github.io/portfolio/) to go to my finished project 
+Click [here](https://jgray33.github.io/julia-gray-portfolio/) to go to my finished project 
 
-### Criteria my finished project met
+## Technologies used 
 
-- GIVEN I need to sample a potential employee's previous work
-- WHEN I load their portfolio
-- THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-- WHEN I click one of the links in the navigation
-- THEN the UI scrolls to the corresponding section
-- WHEN I click on the link to the section about their work
-- THEN the UI scrolls to a section with titled images of the developer's applications
-- WHEN I am presented with the developer's first application
-- THEN that application's image should be larger in size than the others
-- WHEN I click on the images of the applications
-- THEN I am taken to that deployed application
-- WHEN I resize the page or view the site on various screens and devices
-- THEN I am presented with a responsive layout that adapts to my viewport
-
-
+* HTML
+* CSS
+* Javascript 
+* jQuery
 
 ### Screenshot 
 
 Here is what the final project looks like:
 
-![portfolio-finished-gif](https://user-images.githubusercontent.com/95051960/146674872-7b194ca3-9bcb-4a83-be9e-ed948e1b19b6.gif)
+![portfolio-finished-gif](f)
 
 ## Links
-- Repository https://github.com/jgray33/portfolio
-- HTML file https://github.com/jgray33/portfolio/blob/main/index.html 
-- CSS file https://github.com/jgray33/portfolio/blob/main/assets/style.css
+- Repository https://github.com/jgray33/julia-gray-portfolio
+- HTML file  https://github.com/jgray33/julia-gray-portfolio/blob/main/index.html
+- CSS file https://github.com/jgray33/julia-gray-portfolio/blob/main/assets/style.css 
+- JS file https://github.com/jgray33/julia-gray-portfolio/blob/main/assets/script.js 
 
+
+Copyright (c) [2022] [Julia Gray]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

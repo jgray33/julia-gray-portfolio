@@ -26,13 +26,13 @@
   <nav class="container-fluid">
     <div class="row">
       <div class="col-lg-4">
-        <button class="nav-button"> About me </button>
+        <a href="#about-me"><button class="nav-button"> About me </button></a>
       </div>
       <div class="col-lg-4">
-        <button class="nav-button"> Portfolio </button>
+        <a href="#portfolio"><button class="nav-button"> Portfolio </button></a>
       </div>
       <div class="col-lg-4">
-        <button class="nav-button"> Contact </button>
+        <a href ="#contact"><button class="nav-button"> Contact </button></a>
       </div>
     </div>
     </div>
@@ -52,27 +52,25 @@
     <div class="container">
       <div class="row main-section">
         <div class="col">
-          <div class="img-container">
+          <div class="img-container" id="about-me">
             <img class="jg-pastry" src=" assets\images\Julia pastry.jpg" alt="Julia eating a cinnamon swirl">
           </div>
-          <div class="flexbox">
-            <a href="https://www.linkedin.com/in/julia-g-5a13b168/"><i class="fa fa-linkedin-square"
-                style="font-size:30px"></i></a>
-            <a href="https://github.com/jgray33"><i class="fa fa-github" style="font-size:30px"></i></a>
-            <a href="mailto:julia.gray30@gmail.com"><i class="fa fa-envelope" style="font-size:30px"></i></a>
+          <div class="flexbox" id="contact">
+            <a href="https://www.linkedin.com/in/julia-g-5a13b168/"><i class="fa fa-linkedin-square" style="font-size: 100px"></i></a>
+            <a href="https://github.com/jgray33"><i class="fa fa-github" style="font-size: 100px"></i></a>
+            <a href="mailto:julia.gray30@gmail.com"><i class="fa fa-envelope" style="font-size: 100px"></i></a>
           </div>
           <div class="flexbox">
-            <button class="cv-button"> See my C.V </button>
+            <a href="/assets/images/Julia Gray CV February 2022.pdf"><button class="cv-button"> See my C.V </button></a>
           </div>
         </div>
         <div class="col flexbox">
           <div class="about-me">
-
             <p class="bio"> I am a communications professional
               currently working in public affairs and stakeholder management,
               aspiring to become a competent web developer.
               <button class="btn" id="more-about-me-button"> <i class="fa-solid fa-arrow-right"></i></a>
-                            
+
           </div>
 
 
@@ -80,12 +78,12 @@
       </div>
       </article>
 
-      <header class="container">
+      <header class="container" id="portfolio">
         <h1> Work</h1>
       </header>
 
       <div class="container flexbox work-cards">
-              </div>
+      </div>
 
 
 
@@ -101,4 +99,5 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="/assets/script.js"></script>
+
 </html>
