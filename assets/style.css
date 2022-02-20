@@ -1,24 +1,32 @@
 
 * {
   font-family: "lato";
-  /* font-size: 1em; */
+  font-size: 2vmax
 }
 
 :root {
   --darkgreen: #648381;
   --light-green: #e5ebea;
   --pink: #ddb8a6;
-  /* font-size: calc(16px + 2vw); */
+  
 }
 
 
+.card-container{
+  background-color: aliceblue;
+}
+
+.card{
+  width: 26rem;
+  
+}
 
 /* Navigation bar styling  */
-nav{
+nav, footer{
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 2vmax;
+  
 }
 
 
@@ -28,7 +36,7 @@ nav{
   background-color: black;
   color: white;
   margin: 1.5%;
-  width: 50%;
+  width: 10rem;
 
 }
 
@@ -41,22 +49,23 @@ button:hover {
 /* Header box styling */
 header {
   background-color: var(--pink);
-  width: 80%;
+  width: 100%;
   margin: auto;
   color: white;
+  margin-top: 2%;
   }
 
 /* Julia Gray's Portfolio styling */
 h1 {
   text-align: center;
-  font-size: 100px;
   margin: 10px;
   padding: 30px;
 }
 
 .img-container{
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 350px;
+  margin: auto;
   margin-top: 10%;
   }
 
@@ -67,8 +76,7 @@ h1 {
   object-position: center;
 }
 
-.links-container, .cv-container{
-  background-color: aqua;
+ .flexbox{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -76,29 +84,37 @@ h1 {
   padding: 5%;
 }
 
+.right-arrow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+
 .about-me{
   background-color: #e5ebea;
   text-align: center;
-  font-size: 2vmax;
-}
+  flex-wrap: wrap;
+  }
 
 .c-container{
   margin: auto;
-  width: 70%;
-  height: 70%;
-  padding: 30px;
-}
+  width: 100%;
+  height: 100%;
+  }
 
-.row{ 
-  background-color: yellow;
-}
 
 .about-me-text{
   text-align: center;
+  margin: auto;
 }
 
-/* @media (min-width: 600px) {
-  :root {
-    font-size: 3vw;
-  }
-} */
+.main-section{
+  background-color: var(--darkgreen);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2%;
+  width: 100%;
+ }
