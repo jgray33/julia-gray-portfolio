@@ -18,7 +18,7 @@ Click [here](https://jgray33.github.io/julia-gray-portfolio/) to go to my finish
 
 Here is what the final project looks like:
 
-![portfolio-finished-gif](f)
+
 
 ## Links
 - Repository https://github.com/jgray33/julia-gray-portfolio
