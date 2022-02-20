@@ -1,21 +1,21 @@
 console.log("connected")
 
 let projects = [{
-    image: "/assets/images/coding-quiz.png",
+    image: "https://raw.githubusercontent.com/jgray33/julia-gray-portfolio/main/assets/images/coding-quiz.png",
     title: "Coding Quiz",
     text: "A quiz powered by Javascript",
     pageLink: "https://jgray33.github.io/coding-quiz/",
     gitHubLink: "https://github.com/jgray33/coding-quiz",
 },
 {
-    image: "/assets/images/weather-dashboard.png",
+    image: "assets/images/weather-dashboard.png",
     title: "Weather Dashboard",
     text: "A weather app which displays the current and a five-day forecast",
     pageLink: "https://jgray33.github.io/weather-dashboard/",
     gitHubLink: "https://github.com/jgray33/weather-dashboard",
 },
 {
-    image: "/assets/images/show-me-more.png",
+    image: "assets/images/show-me-more.png",
     title: "Show me more",
     text: "A website that shows the user more about the actors in a film or tv series.",
     pageLink: "https://jgray33.github.io/show-me-more/",
