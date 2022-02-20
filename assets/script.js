@@ -38,10 +38,12 @@ function loadCards(){
           <div class="card-body">
             <h5 class="card-title">${projects[cardNumber].title}</h5>
             <p class="card-text">${projects[cardNumber].text}</p>
-            <a id="pageLink" href="${projects[cardNumber].pageLink}" class="btn">Visit the page</a>
-            <a id="gitHub" href="${projects[cardNumber].gitHubLink}" class="btn">GitHub repository</a>
+            <div class="flexbox">
+            <a id="pageLink" href="${projects[cardNumber].pageLink}" class="link-button">Visit the page</a>
+            <a id="gitHub" href="${projects[cardNumber].gitHubLink}" class="link-button">GitHub repository</a>
+            </div>
             <div class="right-arrow">
-               <button class="btn" id="more-work-button">More work <i class="fa-solid fa-arrow-right"></i></a>
+               <button class="button" id="more-work-button">More work &nbsp<i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
         </div>`)
@@ -50,6 +52,10 @@ function loadCards(){
         loadCards()
         })}
     
+
+$("#more-about-me-button").click(() => {
+    $(".bio").html("I am an active person and love being outdoors; I play rugby; run regularly and am a  keen cyclist. This year, I cycled from Land's End to John O'Groats carrying everything on my bike. It took 16 days covering over 1,000 miles")
+})
 
 
 

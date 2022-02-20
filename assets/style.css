@@ -31,14 +31,23 @@ nav, footer{
 
 
 /* Button styling - nav links  */
-.nav-button {
+.nav-button, #more-work-button, .cv-button {
   border-color: white;
   background-color: black;
   color: white;
   margin: 1.5%;
   width: 10rem;
-
 }
+
+.cv-button{
+  background-color: var(--light-green);
+  color: black;
+}
+
+#more-work-button{
+  background-color: var(--darkgreen);
+  }
+
 
 /* When hover on the button, pops up */
 button:hover {
@@ -56,11 +65,10 @@ header {
   }
 
 /* Julia Gray's Portfolio styling */
-h1 {
+h1, h2 {
   text-align: center;
   margin: 10px;
-  padding: 30px;
-}
+  }
 
 .img-container{
   width: 300px;
@@ -96,6 +104,7 @@ h1 {
   background-color: #e5ebea;
   text-align: center;
   flex-wrap: wrap;
+  padding: 1%;
   }
 
 .c-container{
