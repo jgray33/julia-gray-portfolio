@@ -1,0 +1,58 @@
+console.log("connected")
+
+let projects = [{
+    image: "/assets/images/coding-quiz.png",
+    title: "Coding Quiz",
+    text: "A quiz powered by Javascript",
+    pageLink: "https://jgray33.github.io/coding-quiz/",
+    gitHubLink: "https://github.com/jgray33/coding-quiz",
+},
+{
+    image: "/assets/images/weather-dashboard.png",
+    title: "Weather Dashboard",
+    text: "A weather app which displays the current and a five-day forecast",
+    pageLink: "https://jgray33.github.io/weather-dashboard/",
+    gitHubLink: "https://github.com/jgray33/weather-dashboard",
+},
+{
+    image: "/assets/images/show-me-more.png",
+    title: "Show me more",
+    text: "A website that shows the user more about the actors in a film or tv series.",
+    pageLink: "https://jgray33.github.io/show-me-more/",
+    gitHubLink: "https://github.com/jgray33/show-me-more",
+}]
+
+
+
+$(document).ready(function(){
+    cardNumber = 0
+    console.log(cardNumber)
+    loadCards()})
+
+
+let cardNumber = 0
+function loadCards(){
+                                     $(".work-cards").html(
+        `<div class="card">
+          <img src="${projects[cardNumber].image}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">${projects[cardNumber].title}</h5>
+            <p class="card-text">${projects[cardNumber].text}</p>
+            <a id="pageLink" href="${projects[cardNumber].pageLink}" class="btn">Visit the page</a>
+            <a id="gitHub" href="${projects[cardNumber].gitHubLink}" class="btn">GitHub repository</a>
+            <div class="right-arrow">
+               <button class="btn" id="more-work-button">More work <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>`)
+        $("#more-work-button").click(() => {
+        cardNumber++
+        loadCards()
+        })}
+    
+
+
+
+   
+
+
